@@ -70,7 +70,7 @@ const App = () => {
     setIsModalOpen(true)
   }
 
-  const handlePanelChange = (value) => setCurrentDate(value);
+  // const handlePanelChange = (value) => setCurrentDate(value);
 
   const headerRender = ({ value, onChange }) => {
     const handlePrev = () => {
@@ -165,7 +165,7 @@ const App = () => {
             fullscreen={true}
             value={currentDate}
             onSelect={onDateClick}
-            onPanelChange={handlePanelChange}
+            // onPanelChange={handlePanelChange}
             headerRender={headerRender}
           />
         </div>
