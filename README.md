@@ -76,13 +76,15 @@ Open http://localhost:3000 in your browser.
 
 Push your project to GitHub.
 
+Github Repo Link : https://github.com/darshann345/Calendar-App
+
 Go to https://vercel.com and sign in.
 
 Click “Add New Project” and import your GitHub repo.
 
 Vercel will auto-detect the React app – click “Deploy”.
 
-React Calender app will be live at https://your-project-name.vercel.app.
+React Calender app will be live at calendar-p8e1wh7sx-darshan-ns-projects.vercel.app.
 
 
 "# Calendar-App" 
