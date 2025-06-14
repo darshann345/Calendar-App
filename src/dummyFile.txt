@@ -1,0 +1,38 @@
+{/* <Select
+          value={current.month()}
+          style={{ width: 120 }}
+          onChange={handleMonthChange}
+        >
+          {months.map((month, index) => (
+            <Option key={index} value={index}>
+              {month}
+            </Option>
+          ))}
+        </Select>
+        <Select
+          value={current.year()}
+          style={{ width: 100 }}
+          onChange={handleYearChange}
+        >
+          {years.map((year) => (
+            <Option key={year} value={year}>
+              {year}
+            </Option>
+          ))}
+        </Select> */}
+
+         const years = Array.from({ length: 31 }, (_, i) => 2000 + i);
+
+    const handleYearChange = (year) => {
+      const newValue = current.year(year);
+      onChange(newValue);
+      setCurrentDate(newValue);
+    };
+
+    const months = dayjs.months();
+
+    const handleMonthChange = (monthIndex) => {
+      const newValue = current.month(monthIndex);
+      onChange(newValue);
+      setCurrentDate(newValue);
+    };

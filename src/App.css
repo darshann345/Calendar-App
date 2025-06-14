@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+@media (max-width: 375px) {
+  .calendar-wrapper {
+    padding: 8px;
+    height: 90vh;
+  }
+
+  .calendar-wrapper .ant-picker-calendar {
+    font-size: 12px;
+  }
+
+  .calendar-wrapper .ant-picker-calendar-full .ant-picker-panel {
+    min-height: 400px;
+  }
+}
+
