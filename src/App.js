@@ -5,7 +5,6 @@ import dayjs from 'dayjs';
 import { Button } from 'antd';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 
-import CalendarHeader from './Components/CalendarHeader';
 import EventModal from './Components/EventModal';
 import EventList from './Components/EventList';
 
